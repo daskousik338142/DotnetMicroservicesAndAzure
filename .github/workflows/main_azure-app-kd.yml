@@ -51,9 +51,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C10C0B71C2E14854AC9E43CCE09ABA57 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8A6F92083E494F5BBE791CCBA08C9DF7 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_AE6A82061D56448A9C6ACA0D8F67F4E5 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_49b376a8a37c4cd89aad3cd1256a2e90 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_139a10d94702485a992ab4cdbc175762 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_81264cbed1764e46b8a0abe09678928a }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -62,4 +62,5 @@ jobs:
           app-name: 'azure-app-kd'
           slot-name: 'Production'
           package: .
+
           
