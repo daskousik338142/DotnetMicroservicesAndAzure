@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net9.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/81264cbe-d176-4e46-b8a0-abe09678928a/resourceGroups/az-group-kd/providers/Microsoft.Web/sites/az-webapp-kd-ui"
+}
