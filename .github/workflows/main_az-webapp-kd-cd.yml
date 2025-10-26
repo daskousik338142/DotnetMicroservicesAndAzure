@@ -61,8 +61,9 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'az-webapp-kd-cd'
+          app-name: 'az-webapp-kd'
           slot-name: 'Production'
           package: .
 
           
+
